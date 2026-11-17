@@ -2,7 +2,7 @@
 
 An ESP32 firmware that drives a servo to physically press a light switch. The board connects to WiFi, advertises itself as `light-switch.local` via mDNS, and exposes a small HTTP API for toggle, reset (double toggle), and dim actions. It also accepts simple commands over the serial console.
 ![Sample](image.png)
-
+![Schematics](Schematic_Smart-Light-Switch_2026-11-17.svg)
 ## Files
 
 - `servo.ino` — the firmware; see it for wiring, exact angles/timings, motion sequences, serial commands, and HTTP endpoint details.
