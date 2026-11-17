@@ -9,7 +9,11 @@ An ESP32 firmware that drives a servo to physically press a light switch. The bo
 - `secrets.h.example` — template for WiFi and HTTP credentials.
 - `secrets.h` — local credentials; create from the example and never commit it (gitignored).
 - `press_loop.sh` — host helper to repeatedly call `/press`.
-- `Smart Light Switch Holder.stl` - 3D model for 3D printing. Also available on [OnShape](https://cad.onshape.com/documents/dcb8cd6bc0ec2a60984a044c/w/5e433ff80808044ccef69e6a/e/351e66e5575f2ac30c43b155?renderMode=0&uiState=6afcb1c6ac3ff47a8b1ed0da)
+- `Smart Light Switch Holder.stl` - 3D model for 3D printing. Also available on [OnShape](https://cad.onshape.com/documents/dcb8cd6bc0ec2a60984a044c/w/5e433ff80808044ccef69e6a/e/351e66e5575f2ac30c43b155?renderMode=0&uiState=6afcb1c6ac3ff47a8b1ed0da) if you want to export to another format.
+
+[![3D Model Preview](onshape.png)](https://github.com/SteveWufeng/ESP32-Smart-Light-Switch/blob/main/Smart%20Light%20Switch%20Holder.stl)
+*Click the image above to view and rotate the interactive 3D model directly on GitHub.*
+
 
 ## Quick Start
 
